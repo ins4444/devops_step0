@@ -18,8 +18,8 @@ class DevopsStep0ApplicationTests {
 
 	@Test
 	void add_test1() {
-		int result = add(a:10, b:20);
-		assertEquals(expected:30, result);
+		int result = add(10, 20);
+		assertEquals(30, result);
 	}	
 
 	// @Test
